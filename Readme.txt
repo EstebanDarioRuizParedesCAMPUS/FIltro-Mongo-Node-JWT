@@ -1,0 +1,1 @@
+Hay un error al haber pasado el proyecto de Linux a windows, ahora resulta que no puedo probar los endpoints porque no se conecta a la base de datos, cosa rara porque en el día del examen si se conectaba sin problemas.
