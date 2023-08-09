@@ -6,7 +6,7 @@ const databaseCnx = async ()=>{
             useNewUrlParser: true,
             useUnifiedTopology: true,
         })
-        console.log("Conecion exitosa");
+        console.log("Conecion a base de datos exitosa");
     } catch (error) {
         console.log(error);
         throw new Error('No se puede conectar a la DB')

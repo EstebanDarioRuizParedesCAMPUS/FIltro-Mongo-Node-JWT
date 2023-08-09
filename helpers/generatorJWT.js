@@ -12,10 +12,11 @@ const generarJWT = (userId = '') =>{
                 console.log(err);
                 reject('Error al crear Token')
             } else {
-                console.log(token);
                 resolve(token)
             }
         })
     })
     
 }
+
+module.exports = {generarJWT}
