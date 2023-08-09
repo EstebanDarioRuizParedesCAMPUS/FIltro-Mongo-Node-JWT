@@ -32,14 +32,14 @@ class Server {
     }
 
     rutas(){
-        this.app.use(this.path.auth, require())
-        this.app.use(this.path.search, require())
-        this.app.use(this.path.camper, require())
-        this.app.use(this.path.centro, require())
-        this.app.use(this.path.level, require())
-        this.app.use(this.path.rol, require())
-        this.app.use(this.path.ruta, require())
-        this.app.use(this.path.auth, require())
+        //this.app.use(this.path.auth, require())
+        //this.app.use(this.path.search, require())
+        //this.app.use(this.path.camper, require())
+        //this.app.use(this.path.centro, require())
+        //this.app.use(this.path.level, require())
+        //this.app.use(this.path.rol, require())
+        //this.app.use(this.path.ruta, require())
+        //this.app.use(this.path.auth, require())
     }
 
     async conection(){

@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const Server = require('./conectionDB/server')
+const Server = require('./database/server')
 
 const server = new Server()
 
