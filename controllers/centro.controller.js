@@ -66,11 +66,10 @@ const patchCentro = async (req, res = response)=>{
 
     const { id } = req.params;
 
-    const { _id, ...resto } = req.body;
+    const { _id, nombre,...resto } = req.body;
 
-    if ( password ) {
-        const salt = bcryptjs.genSaltSync();
-        resto.password = bcryptjs.hashSync( password, salt );
+    if(nombre){
+        resto.nombre = nombre.toUpperCase()
     }
 
     const centro = await Centro.findByIdAndUpdate( id, resto, {new:true} );

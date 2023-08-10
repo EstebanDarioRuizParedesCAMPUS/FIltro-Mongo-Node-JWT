@@ -5,7 +5,7 @@ const centroSchema = Schema({
         type: String,
         required:[true, 'Campo nombre es obligatorio'],
     },
-    email:{
+    descipcion:{
         type:String,
         required:[true,'Campo descripción es obligatorio']
     },

@@ -10,6 +10,11 @@ const rutaSchema = Schema({
         ref: 'centros',
         required: true
     },
+    estado:{
+        type: Boolean,
+        required: true,
+        default: true
+    },
 })
 
 module.exports = model('rutas',rutaSchema)

@@ -14,6 +14,11 @@ const levelSchema = Schema({
         type:String,
         required:[true,'Campo duracion es obligatorio']
     },
+    estado:{
+        type: Boolean,
+        required: true,
+        default: true
+    },
 })
 
 module.exports = model('levels',levelSchema)
